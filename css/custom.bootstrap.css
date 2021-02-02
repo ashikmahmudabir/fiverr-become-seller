@@ -10,6 +10,33 @@ body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.custom-btn{
+    padding: 10px 40px;
+    background:#1dbf73;
+    border: 1px solid transparent;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.join-btn{
+    color: #1dbf73;;
+    font-weight: 700;
+    border: 1px#1dbf73 solid;
+    box-sizing: border-box;
+    padding: 4px 20px;
+    border-radius: 3px;
+    font-size: 14px;
+    background: transparent;
+    transition: background-color .2s;
+    margin-top: 4px;
+}
+
+.join-btn:hover{
+    background-color: #1dbf73;
+    border: 1px #1dbf73 solid;
+    color: #ffffff !important;
+}
 .font-family-tatto{
     font-family: tatto !important;
 }
@@ -29,83 +56,33 @@ body{
     max-width: 1400px !important;
     margin: auto;
 }
-/* Home-slider css  */
-.opacity{
-    opacity: 1 !important;
-    
+.how-its-work-title{
+    position: relative;
+   
 }
-.category{
-    transform: scaleY(0);
-    transition: transform 0.05s;
-    
+.create-gig::before{
+    background-position: -200px 0px !important;
 }
-.showCategory{
-    transform: scaleY(1) !important;
-}
-.join-btn{
-    color: #fff;
-    font-weight: 700;
-    border: 1px #fff solid;
-    box-sizing: border-box;
-    padding: 4px 20px;
-    border-radius: 3px;
-    font-size: 14px;
-    background: transparent;
-    transition: background-color .2s;
-    margin-top: 4px;
-}
-.join-btn-fixed{
-  border: 1px solid #1dbf73;
-  color: #1dbf73;
-}
-.join-btn-fixed:hover{
-    color: #fff;
-}
-.join-btn:hover{
-    background-color: #1dbf73;
-    border: 1px #1dbf73 solid;
-}
-.slide-items-1{
- background-image: url(../images/home-slider/bg-hero-3-1792-x1.jpg);
- background-size: contain;
-}
-.slide-items-2{
-    background-image: url(../images/home-slider/bg-hero-2-1792-x1.jpg);
-    background-size: contain;
-}
-.slide-items-3{
-    background-image: url(../images/home-slider/bg-hero-1-1792-x1.webp);
-    background-size: contain;
-}
-.slide-items-4{
-    background-image: url(../images/home-slider/bg-hero-5-1792-x1.jpg);
-    background-size: contain;
-}
-.slide-items-5{
-    background-image: url(../images/home-slider/bg-hero-4-1792-x1.jpg);
-    background-size: contain;
+.deliver-work::before{
+    background-position: -245px 0px !important;
+    width: 60px !important
 }
 
-/* Slick SLider Button Customization  */
- .slick-prev,.slick-next{
-     position: absolute !important;
-     z-index: 345243;
-     width: 45px;
-     height: 45px;
-     border-radius: 50%;
-     background: white;
-     color: black;
-     border: 1px solid white;
-     box-shadow: 1px 14px 25px rgb(128, 128, 128);
+.how-its-work-title::before{
+    content: "";
+    background: transparent url(../img/sprite-start-selling-bef22ab67dff9a5d27397d224f85df2f.svg) no-repeat 0 0;
+    background-size: 350px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 10px;
+}
 
- }
- .slick-next{
-    right: 0px;
-    top: 50%;
-    transform: translateY(-50%);
- }
- .slick-prev{
-    left: -25px;
-    top: 50%;
-    transform: translateY(-50%);
- }
+.left-review::after{
+    right: -20px !important;
+    top: 46%;
+    right: 15px !important;
+    left: 330px !important;
+    z-index: 43;
+}

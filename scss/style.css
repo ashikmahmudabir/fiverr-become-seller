@@ -1,0 +1,157 @@
+header .header-part .header-wrapper .header-inner nav form {
+  margin-left: 15px;
+  padding: 1px 0px; }
+  header .header-part .header-wrapper .header-inner nav form .form-group {
+    width: 420px; }
+    header .header-part .header-wrapper .header-inner nav form .form-group .search-bar {
+      padding: 4px 0px; }
+      header .header-part .header-wrapper .header-inner nav form .form-group .search-bar span {
+        border: 1px solid silver;
+        border-right: none !important;
+        padding: 4px;
+        padding-left: 10px;
+        border-radius: 3px 0px 0px 3px; }
+        header .header-part .header-wrapper .header-inner nav form .form-group .search-bar span svg {
+          width: 18px;
+          height: 18px;
+          fill: #545557; }
+      header .header-part .header-wrapper .header-inner nav form .form-group .search-bar input {
+        width: 100%;
+        padding: 5px 10px !important;
+        border: 1px solid silver !important;
+        border-left: none !important; }
+        header .header-part .header-wrapper .header-inner nav form .form-group .search-bar input:focus {
+          box-shadow: none !important;
+          border: 1px solid silver; }
+      header .header-part .header-wrapper .header-inner nav form .form-group .search-bar button {
+        border: none !important;
+        background-color: #1dbf73;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: white;
+        padding: 0px 15px;
+        cursor: pointer;
+        transition: all 0.4s;
+        border-radius: 0px 3px 3px 0px; }
+        header .header-part .header-wrapper .header-inner nav form .form-group .search-bar button:hover {
+          background-color: #14a360; }
+header .header-part .header-wrapper .header-inner .video-background {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box; }
+  header .header-part .header-wrapper .header-inner .video-background .video-background-content .video-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white; }
+  header .header-part .header-wrapper .header-inner .video-background .video-background-content .video-down-content {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 29px 0px; }
+
+.freelancer .freelancer-wrapper .freelancer-inner .freelancer-content:hover .freelancer-item::after {
+  opacity: 1 !important; }
+.freelancer .freelancer-wrapper .freelancer-inner .freelancer-content .row .col-lg-3 .freelancer-item {
+  overflow: hidden;
+  position: relative;
+  height: 320px; }
+  .freelancer .freelancer-wrapper .freelancer-inner .freelancer-content .row .col-lg-3 .freelancer-item::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #0a0a0a8f;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s; }
+  .freelancer .freelancer-wrapper .freelancer-inner .freelancer-content .row .col-lg-3 .freelancer-item:hover::after {
+    opacity: 0 !important; }
+  .freelancer .freelancer-wrapper .freelancer-inner .freelancer-content .row .col-lg-3 .freelancer-item img {
+    transition: transform 2s;
+    transform-origin: top; }
+  .freelancer .freelancer-wrapper .freelancer-inner .freelancer-content .row .col-lg-3 .freelancer-item:hover img {
+    transform: scale(1.1); }
+  .freelancer .freelancer-wrapper .freelancer-inner .freelancer-content .row .col-lg-3 .freelancer-item h3 {
+    position: absolute;
+    bottom: 0; }
+
+.fiverr-course {
+  margin: 40px 0px; }
+  .fiverr-course .fiverr-course-wrapper .fiverr-course-content {
+    padding: 40px; }
+    .fiverr-course .fiverr-course-wrapper .fiverr-course-content .fiverr-course-logo {
+      background: url(../img/learn_more-be8dccde6136de19201dae91e32053ae.svg);
+      display: block;
+      height: 45px;
+      padding: 0 0 20px;
+      background-repeat: no-repeat; }
+
+.buyer-story .buyer-content .buyer-review {
+  height: 326px;
+  border-radius: 0px !important;
+  text-align: center;
+  padding: 95px 56px;
+  color: #62646a;
+  background: #f7f7f7;
+  position: relative;
+  border: none !important; }
+  .buyer-story .buyer-content .buyer-review::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: #f7f7f7;
+    position: absolute;
+    left: -20px;
+    top: 46%;
+    transform: translateY(-50%);
+    transform: rotate(45deg); }
+
+.question-answer .question-answer-wrapper .question-answer-inner .question-answer-content .row .col-lg-6 .accordion ul li {
+  transition: 0.2s;
+  padding: 16px 20px;
+  background: white;
+  border-radius: 5px;
+  transition: border 0.1s;
+  border-left: 5px solid transparent; }
+  .question-answer .question-answer-wrapper .question-answer-inner .question-answer-content .row .col-lg-6 .accordion ul li:hover {
+    border-left: 5px solid #1dbf73; }
+
+footer .footer-wrapper .footer-inner .footer-content .row .col-lg-8 .right ul li {
+  width: 40px;
+  height: 40px;
+  transition: 0.4s;
+  margin: 0px 5px;
+  border-radius: 50%; }
+  footer .footer-wrapper .footer-inner .footer-content .row .col-lg-8 .right ul li:hover {
+    background: rgba(187, 184, 184, 0.294); }
+  footer .footer-wrapper .footer-inner .footer-content .row .col-lg-8 .right ul li a {
+    text-align: center;
+    padding-top: 8px; }
+    footer .footer-wrapper .footer-inner .footer-content .row .col-lg-8 .right ul li a span svg {
+      fill: #7A7D85; }
+footer .footer-wrapper .footer-inner .footer-content .row .col-lg-8 .right .settings-buttons .circle-btn {
+  background: none;
+  border: none;
+  border-radius: 50%; }
+  footer .footer-wrapper .footer-inner .footer-content .row .col-lg-8 .right .settings-buttons .circle-btn:hover {
+    background: rgba(187, 184, 184, 0.294); }
+  footer .footer-wrapper .footer-inner .footer-content .row .col-lg-8 .right .settings-buttons .circle-btn span svg {
+    fill: #7A7D85; }
+footer .footer-wrapper .footer-inner .footer-content .row .col-lg-8 .right .settings-buttons .design-btn {
+  padding: 6px 10px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 8px;
+  transition: 0.4s;
+  background: none; }
+  footer .footer-wrapper .footer-inner .footer-content .row .col-lg-8 .right .settings-buttons .design-btn:hover {
+    background: rgba(187, 184, 184, 0.294); }
+  footer .footer-wrapper .footer-inner .footer-content .row .col-lg-8 .right .settings-buttons .design-btn span svg {
+    color: #2b2c2f !important; }
+
+/*# sourceMappingURL=style.css.map */
